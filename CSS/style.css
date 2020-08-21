@@ -1,0 +1,290 @@
+body {
+  margin: 0;
+}
+
+h1{
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  color: #DBC6EB;
+  font-size: 5rem;
+}
+
+h2{
+  font-family: 'Montaga', serif;
+  font-size: 2.5rem;
+  color: #1F4068;
+}
+
+h3{
+  font-family: 'Montaga', serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+  font-size: 1rem;
+  color: #40514E;
+  line-height: 2;
+  #11999E;
+
+}
+
+hr{
+  border-style: dotted;
+  border-color: #11999E;
+  width: 7%;
+  border-width: 3px;
+
+}
+
+#one{
+  background-color: #EDFDFD;
+  width: 100%;
+}
+
+
+.nav-item{
+  font-family: 'Montaga', serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1F4068;
+}
+
+@media (max-width: 900px) {
+.nav-item{
+  font-size: 1rem;
+}
+}
+
+.top-container{
+  height: 12%;
+  background-color: #EDFDFD;
+}
+
+.snowball{
+  background-image: url(../winter/snowball.png);
+  background-color: #cccccc;
+  height: 600px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+@media (max-width: 900px) {
+  .snowball{
+    height: 500px;
+  }
+}
+
+.intro{
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 600px) {
+  .snowball{
+    height: 300px;
+  }
+ .intro{
+   font-size: 1rem;
+ }
+}
+
+.iam{
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+
+
+/* .................. Hi ............................... */
+
+.middle-container{
+  background-color: #ddf3f5;
+  width: auto;
+}
+
+
+.describe{
+  width: 30%;
+  margin: auto;
+}
+
+
+.hi{
+  margin-top: 2%;
+  width: 150px;
+  border-radius: 100%;
+}
+
+
+
+/* .........What I can do .................. */
+
+.skating{
+  margin: 25px ;
+
+}
+
+.head-text{
+  text-align: center;
+
+  font-weight: bold;
+}
+
+.profile-row{
+  text-align: center;
+  line-height: 2;
+}
+
+@media (max-width:500px) {
+  .profile-row{
+    width: 100%;
+  }
+
+}
+
+
+.skill-row{
+  width: 30%;
+  margin : 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.cycle{
+
+  float: left;
+  margin-right: 30px;
+}
+
+.dev{
+  float: right;
+  margin-left: 30px;
+}
+
+/* ........... Help ...................... */
+
+.contact{
+  border-radius: 100%;
+  height: 20px;
+}
+
+.bottom-container {
+  background-color: #71C9CE;
+  width: auto;
+  padding: 3% 15% 0 15%;
+  text-align: center;
+}
+
+.contact-me{
+  background-color: #ddf3f5;
+  padding: 5%;
+
+}
+.container-fluid{
+  width: 50%;
+  align-items: center;
+}
+
+a:link {
+  color: #1F4068;
+}
+
+a:visited {
+  color: #127681;
+}
+
+a{
+  font-family: 'Montaga', serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
+
+/* ............... WORK ...................................... */
+.work-top{
+  width: 100%;
+  background-color: #1b6ca8;
+  padding: 5% 0 0 0;
+
+}
+
+h1 .work-top{
+  font-size: 6rem;
+  margin: 0;
+  color: #ddf3f5;
+}
+
+.fishing{
+  border-radius: 100%;
+  height: 300px;
+}
+
+@media (max-width: 900px) {
+  .fishing{
+    height: 200px;
+  }
+}
+
+/*  Tindog */
+
+.tindo{
+  background-color: #e1ffc2;
+  width: auto;
+  padding: 3% 0 ;
+}
+
+.work-row{
+  text-align: center;
+  line-height: 2;
+}
+
+.tindoggy{
+  height: 25em;
+  padding: 5% auto;
+  margin: 5% auto;
+}
+
+@media (max-width: 900px) {
+  .tindoggy{
+    height: 20em;
+  }
+}
+
+@media (max-width: 700px) {
+  .tindoggy{
+    height: 13em;
+  }
+}
+
+h2.work-row{
+  font-weight: bolder;
+  padding: 2%;
+}
+
+.workee{
+  font-size: 5rem;
+  font-weight: bolder;
+}
+
+/* ..................................... */
+
+#testimoniale {
+  text-align: center;
+  background-color: powderblue;
+  padding: 2%;
+}
